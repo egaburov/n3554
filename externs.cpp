@@ -4,10 +4,10 @@ namespace std
 {
 
 
-const sequential_execution_policy seq;
+const sequential_execution_policy seq{};
 
 
-const parallel_execution_policy par;
+const parallel_execution_policy par{};
 
 
 }
